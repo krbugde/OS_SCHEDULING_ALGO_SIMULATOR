@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7251206500b044926d20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPU_Scheduler_GUI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CPU_Scheduler_GUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPU_Scheduler_GUI-Debug-5a3730714b3c4ccef61b.json",
+					"name" : "CPU_Scheduler_GUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPU_Scheduler_GUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPU_Scheduler_GUI_autogen-Debug-57810c939f2b2a98e8e7.json",
+					"name" : "CPU_Scheduler_GUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CPU_Scheduler_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPU_Scheduler_GUI_autogen_timestamp_deps-Debug-da98bdcfc76663ed3421.json",
+					"name" : "CPU_Scheduler_GUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

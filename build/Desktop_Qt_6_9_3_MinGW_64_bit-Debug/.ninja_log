@@ -1,0 +1,83 @@
+# ninja log v6
+3416	4029	7837867457324788	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+294	383	7837673658694741	CPU_Scheduler_GUI_autogen/EWIEGA46WW/qrc_resources.cpp	ec863741e4a74cd6
+294	383	7837673658694741	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/EWIEGA46WW/qrc_resources.cpp	ec863741e4a74cd6
+315	3416	7837867426230949	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+901	3556	7837826485498561	CMakeFiles/CPU_Scheduler_GUI.dir/main.cpp.obj	c98416075265dc69
+69	314	7837867423896438	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+894	3383	7837826485438624	CMakeFiles/CPU_Scheduler_GUI.dir/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp.obj	2541d87904a2cb95
+69	314	7837867423896438	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+69	314	7837867423896438	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+69	314	7837867423896438	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+38	987	7837643745440530	build.ninja	4e50511edefbeb91
+391	471	7837673658937880	CMakeFiles/CPU_Scheduler_GUI.dir/CPU_Scheduler_GUI_autogen/EWIEGA46WW/qrc_resources.cpp.obj	726b5c10f7176c1a
+61	270	7837867901441503	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+61	270	7837867901441503	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+61	270	7837867901441503	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+61	270	7837867901441503	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+271	3319	7837867903505615	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+3319	3922	7837867933968122	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+60	253	7837868805420525	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+60	253	7837868805420525	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+60	253	7837868805420525	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+60	253	7837868805420525	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+254	3322	7837868807459520	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+3323	3925	7837868838110553	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+58	256	7837869303302194	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+58	256	7837869303302194	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+58	256	7837869303302194	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+58	256	7837869303302194	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+257	3426	7837869305278181	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+3426	4082	7837869336947340	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+66	261	7837875369557464	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+66	261	7837875369557464	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+66	261	7837875369557464	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+66	261	7837875369557464	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+262	4969	7837875371516184	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+4969	5825	7837875418540611	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+59	348	7837880941215056	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+59	348	7837880941215056	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+59	348	7837880941215056	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+59	348	7837880941215056	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+349	4062	7837880944257210	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+51	279	7837883092203875	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+51	279	7837883092203875	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+51	279	7837883092203875	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+51	279	7837883092203875	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+280	4897	7837883094426739	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+4897	5766	7837883140710363	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+13	304	7837885678942794	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+13	304	7837885678942794	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+13	304	7837885678942794	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+13	304	7837885678942794	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+305	4823	7837885681806696	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+4824	5773	7837885727040254	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+13	208	7837904345382272	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+13	208	7837904345382272	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+13	208	7837904345382272	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+13	208	7837904345382272	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+210	5466	7837904347348394	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+5466	6486	7837904399916313	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+129	944	7838431370348827	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+129	944	7838431370348827	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+129	944	7838431370348827	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+129	944	7838431370348827	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+946	1122	7838431373041944	CPU_Scheduler_GUI_autogen/EWIEGA46WW/qrc_resources.cpp	ec863741e4a74cd6
+946	1122	7838431373041944	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/EWIEGA46WW/qrc_resources.cpp	ec863741e4a74cd6
+1141	1573	7838431373368651	CMakeFiles/CPU_Scheduler_GUI.dir/CPU_Scheduler_GUI_autogen/EWIEGA46WW/qrc_resources.cpp.obj	726b5c10f7176c1a
+1129	3795	7838431373273828	CMakeFiles/CPU_Scheduler_GUI.dir/main.cpp.obj	c98416075265dc69
+1123	3812	7838431373213731	CMakeFiles/CPU_Scheduler_GUI.dir/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp.obj	2541d87904a2cb95
+1135	6001	7838431373326414	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+6002	7574	7838431422001910	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+103	366	7838559910143479	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+103	366	7838559910143479	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+103	366	7838559910143479	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+103	366	7838559910143479	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+368	5997	7838559912799387	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+5997	7542	7838559969100419	CPU_Scheduler_GUI.exe	7116e78b3cb7675e
+63	332	7838570170777450	CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+63	332	7838570170777450	CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+63	332	7838570170777450	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/timestamp	a694b51a04e0365
+63	332	7838570170777450	C:/Users/Dr.Manish inamdar/OneDrive/Documents/CPU_Scheduler_GUI/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/CPU_Scheduler_GUI_autogen/mocs_compilation.cpp	a694b51a04e0365
+333	4906	7838570173480646	CMakeFiles/CPU_Scheduler_GUI.dir/mainwindow.cpp.obj	f6063427930d70fc
+4906	5901	7838570219196078	CPU_Scheduler_GUI.exe	7116e78b3cb7675e

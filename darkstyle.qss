@@ -1,0 +1,176 @@
+QMainWindow {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0d1117, stop:1 #161b22);
+    color: #f0f0f0;
+    font-family: "Segoe UI Semibold", "Roboto", sans-serif;
+    font-size: 10.5pt;
+}
+
+/* === TITLE LABEL === */
+QLabel#titleLabel {
+    font-size: 18pt;
+    font-weight: 700;
+    color: #00e5ff;
+    letter-spacing: 1.5px;
+}
+
+/* === GROUP BOX === */
+QGroupBox {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    margin-top: 12px;
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 14px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 0 8px;
+    color: #00ffff;
+    font-weight: 600;
+    font-size: 11pt;
+    background-color: transparent;
+}
+
+/* === PUSH BUTTONS === */
+QPushButton {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0077b6, stop:1 #00b4d8);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+QPushButton:hover {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #00b4d8, stop:1 #48cae4);
+    transform: scale(1.03);
+}
+QPushButton:pressed {
+    background-color: #006f9e;
+    transform: scale(0.97);
+}
+
+/* === COMBO BOX === */
+QComboBox {
+    background-color: #1e1e1e;
+    border: 1px solid #00b4d8;
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #e0e0e0;
+    font-weight: 500;
+}
+QComboBox:hover {
+    border-color: #18ffff;
+}
+QComboBox::drop-down {
+    border: none;
+    width: 28px;
+}
+QComboBox::down-arrow {
+    image: url(:/icons/arrow-down-light.png);
+    width: 14px;
+    height: 14px;
+}
+
+/* === LINE EDIT === */
+QLineEdit {
+    background-color: #1c1c1c;
+    border: 1px solid #00b4d8;
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #00e5ff;
+    font-weight: 500;
+}
+QLineEdit:focus {
+    border: 1px solid #18ffff;
+}
+
+/* === TABLES (Process, Result, Paging) === */
+QHeaderView::section {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #2d2d2d, stop:1 #00b4d8);
+    color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 10pt;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+QTableWidget {
+    background-color: #141414;
+    alternate-background-color: #1b1b1b;
+    gridline-color: #2a2a2a;
+    color: #eaeaea;
+    selection-background-color: #00b4d8;
+    selection-color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+QTableWidget QTableCornerButton::section {
+    background-color: #00b4d8;
+}
+
+/* === PAGE FAULT HIGHLIGHT === */
+.page-fault {
+    background-color: #3a3a3a !important;  /* Light grey box for page faults */
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+/* === GRAPHICS VIEW (Gantt Chart) === */
+QGraphicsView {
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #101010;
+}
+
+/* === AVERAGE TIME LABELS === */
+#avgWT, #avgTAT {
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: #00eaff;
+    border: 1px solid #00b4d8;
+    font-size: 11pt;
+    min-width: 140px;
+    text-align: center;
+}
+#avgWT:hover, #avgTAT:hover {
+    background-color: #262626;
+}
+
+/* === LABELS FOR PAGE FAULTS === */
+#labelPageFaults {
+    color: #ffcc00;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+/* === SCROLL BARS === */
+QScrollBar:vertical {
+    background: #202020;
+    width: 10px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+    background: #00b4d8;
+    min-height: 20px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #48cae4;
+}
+
+/* === whole main window === */
+* {
+    transition: all 0.25s ease;
+    font-family: "Segoe UI", "Roboto", sans-serif;
+    outline: none;
+}

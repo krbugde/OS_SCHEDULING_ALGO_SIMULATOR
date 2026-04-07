@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1696</width>
+    <height>949</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>101</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+Add Process</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>90</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Select scheduling algorithms&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="algoComboBox">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>130</y>
+      <width>201</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>180</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Time quantum: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="timeQuantumInput">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>180</y>
+      <width>113</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="runButton">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>230</y>
+      <width>181</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Run Simulation</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="resultTable">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>761</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Process Id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Arrival time</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Burst Time</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Completion Time</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Waiting time</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Turn around time</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="processTable">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>501</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Process id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Arrival Time</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Burst Time</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Priority</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QGroupBox" name="groupBoxPaging">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>30</y>
+      <width>321</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>💾 Paging Simulation </string>
+    </property>
+    <widget class="QTableWidget" name="pageTable">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>251</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Page No</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Frame No</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>590</y>
+       <width>131</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Total Page Faults: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelPageFaults">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>590</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="clearButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>670</y>
+       <width>111</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Clear/Reset</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="runPagingButton">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>630</y>
+       <width>181</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Run Paging Simulation</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="nextStepButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>630</y>
+       <width>90</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Next step</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>1211</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>⚙️ CPU Scheduling Simulation </string>
+    </property>
+    <widget class="QLabel" name="avgTAT">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>470</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>470</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Average Turn around time:-</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupMemoryManagement">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>30</y>
+       <width>401</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>🧠Memory Management</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Algorithm: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboMemoryAlgo">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>30</y>
+        <width>141</width>
+        <height>28</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnRunMemorySim">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>30</y>
+        <width>121</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Run simulation</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableMemory">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>381</width>
+        <height>192</height>
+       </rect>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::EditTrigger::AnyKeyPressed|QAbstractItemView::EditTrigger::CurrentChanged|QAbstractItemView::EditTrigger::DoubleClicked|QAbstractItemView::EditTrigger::SelectedClicked</set>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Process id</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Size</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Block</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Fragments</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>450</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Average Fragmentation</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelAvgFrag">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>440</y>
+        <width>63</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>480</y>
+        <width>361</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Memory Visualization</string>
+      </property>
+      <widget class="QGraphicsView" name="memoryVisualization">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>341</width>
+         <height>171</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTableWidget" name="tableMemoryBlocks">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>70</y>
+        <width>251</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Block id</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Size</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="avgWT">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>470</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QGraphicsView" name="ganttView">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>512</y>
+       <width>781</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>771</width>
+       <height>192</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid gray; background-color: white;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>480</y>
+       <width>161</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Average waiting time:-</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>groupBox</zorder>
+   <zorder>addButton</zorder>
+   <zorder>label_6</zorder>
+   <zorder>algoComboBox</zorder>
+   <zorder>label_7</zorder>
+   <zorder>timeQuantumInput</zorder>
+   <zorder>runButton</zorder>
+   <zorder>resultTable</zorder>
+   <zorder>processTable</zorder>
+   <zorder>groupBoxPaging</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1696</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOSPROCESS_SIMULATOR">
+    <property name="title">
+     <string>OSPROCESS SIMULATOR </string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuOSPROCESS_SIMULATOR"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

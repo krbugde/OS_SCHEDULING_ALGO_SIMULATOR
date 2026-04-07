@@ -4,7 +4,7 @@ A Qt-based desktop application for visualizing CPU scheduling algorithms, paging
 
 ## Overview
 
-`os Algorithm Simulator` provides an interactive graphical interface to:
+`OS Algorithm Simulator` provides an interactive graphical interface to:
 
 - Add and simulate process scheduling using common algorithms
 - Visualize Gantt charts and performance metrics
